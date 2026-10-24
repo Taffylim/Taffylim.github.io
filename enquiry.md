@@ -82,7 +82,7 @@ Dear Valued Client, 请花 1 分钟提交您的精准物业需求。收到您的
   </div>
 
   <!-- 5. 提交按钮 -->
-  <button type="submit" style="background:#2ecc71; color:white; border:none; padding:14px 20px; font-size:16px; font-weight:bold; border-radius:4px; cursor:pointer; width:100%; box-shadow: 0 4px 6px rgba(46,204,113,0.2);">🚀 SUBMIT REQUIREMENT / 提交精准匹配申请</button>
+  <input type="submit" value="🚀 SUBMIT REQUIREMENT / 提交精准匹配申请" style="background:#2ecc71; color:white; border:none; padding:14px 20px; font-size:16px; font-weight:bold; border-radius:4px; cursor:pointer; width:100%; box-shadow: 0 4px 6px rgba(46,204,113,0.2); -webkit-appearance:none;">
 </form>
 
 ---
