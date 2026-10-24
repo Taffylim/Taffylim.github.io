@@ -33,3 +33,67 @@ Click the link below to chat with me instantly via WhatsApp for viewing arrangem
 
 ---
 🌐 *Registered Industrial Specialist Agent. Your trusted partner for corporate setup in Klang.*
+---
+
+## 📋 Submit Your Requirement / 提交您的精准找房找地需求
+If you are looking for specific factories, warehouses, or land, please fill up the form below. I will filtering the market and contact you within 24 hours.
+
+<form action="https://formspree.io" method="POST" style="background:#f9f9f9; padding:20px; border-radius:8px; border:1px solid #ddd; max-width:600px;">
+  <div style="margin-bottom:12px;">
+    <label style="display:block; font-weight:bold; margin-bottom:4px;">1. Company & Contact Name / 公司与联络人姓名 *</label>
+    <input type="text" name="name" required style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;">
+  </div>
+  
+  <div style="margin-bottom:12px;">
+    <label style="display:block; font-weight:bold; margin-bottom:4px;">2. Contact Number / 电话号码 *</label>
+    <input type="tel" name="phone" required style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;">
+  </div>
+
+  <div style="margin-bottom:12px;">
+    <label style="display:block; font-weight:bold; margin-bottom:4px;">3. Intent / 意向 *</label>
+    <select name="intent" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;">
+      <option value="Rent">Rent / 出租</option>
+      <option value="Buy">Buy / 购买</option>
+    </select>
+  </div>
+
+  <div style="margin-bottom:12px;">
+    <label style="display:block; font-weight:bold; margin-bottom:4px;">4. Property Type / 物业类型 *</label>
+    <select name="type" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;">
+      <option value="Detached Factory">Detached Factory / 独立厂房</option>
+      <option value="Semi-D Factory">Semi-D Factory / 半独立厂房</option>
+      <option value="Warehouse">Warehouse / 仓库</option>
+      <option value="Industrial Land">Industrial Land / 工业地</option>
+    </select>
+  </div>
+
+  <div style="margin-bottom:12px;">
+    <label style="display:block; font-weight:bold; margin-bottom:4px;">5. Target Area / 目标区域 (e.g. Kapar, Telok Gong) *</label>
+    <input type="text" name="location" required style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;">
+  </div>
+
+  <div style="margin-bottom:12px;">
+    <label style="display:block; font-weight:bold; margin-bottom:4px;">6. Min Built-up Area / 最少建筑面积 (sqft)</label>
+    <input type="text" name="size" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;" placeholder="e.g. 20,000 sqft">
+  </div>
+
+  <div style="margin-bottom:12px;">
+    <label style="display:block; font-weight:bold; margin-bottom:4px;">7. Power Supply / 电力需求 (Amp)</label>
+    <input type="text" name="power" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;" placeholder="e.g. 3-Phase 400 Amp / 1200 Amp">
+  </div>
+
+  <div style="margin-bottom:12px;">
+    <label style="display:block; font-weight:bold; margin-bottom:4px;">8. CF / CCC Requirement / 入伙证要求 *</label>
+    <select name="cf" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;">
+      <option value="Must with CF">Must with CF / 必须备有合法入伙证</option>
+      <option value="No CF OK">No CF OK / 无入伙证可以接受</option>
+    </select>
+  </div>
+
+  <div style="margin-bottom:16px;">
+    <label style="display:block; font-weight:bold; margin-bottom:4px;">9. Target Budget (RM) / 预算范围 *</label>
+    <input type="text" name="budget" required style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;" placeholder="e.g. RM 30k/month or RM 15 Million">
+  </div>
+
+  <button type="submit" style="background:#2ecc71; color:white; border:none; padding:12px 20px; font-size:16px; font-weight:bold; border-radius:4px; cursor:pointer; width:100%;">🚀 SUBMIT REQUIREMENT / 提交找房申请</button>
+</form>
