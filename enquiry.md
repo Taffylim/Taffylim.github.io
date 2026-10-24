@@ -1,0 +1,89 @@
+# 📋 Corporate Property Requirement Form | 工商业需求登记表
+### Taffy Lim (REN 11160) - Klang Valley Industrial & Land Specialist
+
+Dear Valued Client, 请花 1 分钟提交您的精准物业需求。收到您的数据后，我们的工商业专家团队将在 24 小时内为您筛选全马最合适的盘源并与您联系。
+
+---
+
+<form action="https://formspree.io" method="POST" style="background:#ffffff; padding:25px; border-radius:8px; border:1px solid #e0e0e0; max-width:650px; font-family:sans-serif;">
+
+  <!-- 1. 基本联络信息 -->
+  <div style="margin-bottom:15px;">
+    <label style="display:block; font-weight:bold; margin-bottom:6px; color:#333;">1. Company Name & Contact Person / 公司与联络人姓名 *</label>
+    <input type="text" name="client_name" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;">
+  </div>
+  
+  <div style="margin-bottom:15px;">
+    <label style="display:block; font-weight:bold; margin-bottom:6px; color:#333;">2. WhatsApp / Contact Number / 联络电话 *</label>
+    <input type="tel" name="client_phone" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;" placeholder="e.g. 0123456789">
+  </div>
+
+  <!-- 2. Property 意向与类别选择 -->
+  <div style="margin-bottom:15px;">
+    <label style="display:block; font-weight:bold; margin-bottom:6px; color:#333;">3. Intent / 您的意向 *</label>
+    <select name="property_intent" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;">
+      <option value="Want to RENT">Want to RENT / 寻找租盘</option>
+      <option value="Want to BUY">Want to BUY / 寻找买盘</option>
+      <option value="Owner Want to LIST">Owner Listing / 业主委托（出租/出售）</option>
+    </select>
+  </div>
+
+  <div style="margin-bottom:15px;">
+    <label style="display:block; font-weight:bold; margin-bottom:6px; color:#333;">4. Property Type / 物业类型选择 *</label>
+    <select name="property_type" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;">
+      <option value="Detached Factory">Detached Factory / 独立式厂房</option>
+      <option value="Semi-D Factory">Semi-D Factory / 半独立式厂房</option>
+      <option value="Warehouse">Warehouse / 独立式仓库</option>
+      <option value="Industrial Land">Industrial Land / 工业土地</option>
+      <option value="Commercial Shop / Office">Commercial Shop & Office / 商业店面与办公室</option>
+      <option value="Agricultural / Zoning Land">Agricultural or Other Land / 农业地或其它土地</option>
+    </select>
+  </div>
+
+  <div style="margin-bottom:15px;">
+    <label style="display:block; font-weight:bold; margin-bottom:6px; color:#333;">5. Target Location / 目标区域 *</label>
+    <input type="text" name="target_location" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;" placeholder="e.g. Kapar, Telok Gong, Port Klang, Shah Alam">
+  </div>
+
+  <!-- 3. Property Details 规格详情 (硬核工业指标) -->
+  <div style="margin-bottom:20px; padding:15px; background:#f9f9f9; border-radius:6px; border:1px solid #eee;">
+    <h4 style="margin-top:0; color:#2c3e50; border-bottom:2px solid #2ecc71; padding-bottom:5px;">📋 Property Details Required / 所需物业详细规格</h4>
+    
+    <div style="margin-bottom:12px;">
+      <label style="display:block; font-size:14px; font-weight:bold; margin-bottom:4px;">• Built-up / Land Area (sqft/Acres) 面积要求</label>
+      <input type="text" name="detail_size" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;" placeholder="e.g. Built-up 40k sqft / Land 2 Acres">
+    </div>
+
+    <div style="margin-bottom:12px;">
+      <label style="display:block; font-size:14px; font-weight:bold; margin-bottom:4px;">• Power Supply (Amp) 电力需求</label>
+      <input type="text" name="detail_power" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;" placeholder="e.g. 3-Phase 400 Amp / 1200 Amp">
+    </div>
+
+    <div style="margin-bottom:12px;">
+      <label style="display:block; font-size:14px; font-weight:bold; margin-bottom:4px;">• Ceiling Height & Floor Loading 挑高与地板承重</label>
+      <input type="text" name="detail_height_loading" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;" placeholder="e.g. 30ft Height, 3 Ton/m² Floor Load">
+    </div>
+
+    <div style="margin-bottom:12px;">
+      <label style="display:block; font-size:14px; font-weight:bold; margin-bottom:4px;">• CF / CCC & Industry Zoning 入伙证与工业用地性质要求</label>
+      <input type="text" name="detail_cf_zoning" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;" placeholder="e.g. Must have CF, Medium Industrial zoning preferred">
+    </div>
+
+    <div style="margin-bottom:5px;">
+      <label style="display:block; font-size:14px; font-weight:bold; margin-bottom:4px;">• Other Special Requirements / 其它特殊要求说明</label>
+      <textarea name="detail_remarks" rows="3" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box; resize:vertical;" placeholder="e.g. Overhead crane needed / Multiple loading bays required..."></textarea>
+    </div>
+  </div>
+
+  <!-- 4. 预算 -->
+  <div style="margin-bottom:20px;">
+    <label style="display:block; font-weight:bold; margin-bottom:6px; color:#333;">6. Target Budget (RM) / 价格或月租预算 *</label>
+    <input type="text" name="target_budget" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;" placeholder="e.g. RM 50k/month or RM 18 Million">
+  </div>
+
+  <!-- 5. 提交按钮 -->
+  <button type="submit" style="background:#2ecc71; color:white; border:none; padding:14px 20px; font-size:16px; font-weight:bold; border-radius:4px; cursor:pointer; width:100%; box-shadow: 0 4px 6px rgba(46,204,113,0.2);">🚀 SUBMIT REQUIREMENT / 提交精准匹配申请</button>
+</form>
+
+---
+🌐 *Taffy Lim (REN 11160) - Klang Industrial & Land Specialist*
