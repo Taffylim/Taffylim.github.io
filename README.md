@@ -11,7 +11,7 @@
 **📍 Location:** Taman Sentosa, Klang, Selangor
 **📅 Availability:** Dec 2026 (Secure Your Space Early! / 欢迎提前预订)
 
-![Taman Sentosa Warehouse Interior](sentosa-warehouse.png)
+![Taman Sentosa Warehouse Interior](4f61b239-7f74-4198-b247-7c3636266ea1.jpeg)
 
 ### 📐 Property Specifications / 厂房规格：
 * **Total Built-up Area:** Approx. 9,600 sqft (Dimension: 80' x 120') / 建筑面积 9,600 平方尺
