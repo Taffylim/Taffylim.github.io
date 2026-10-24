@@ -5,7 +5,11 @@ Dear Valued Client, 请花 1 分钟提交您的精准物业需求。收到您的
 
 ---
 
-<form action="https://formspree.io" method="POST" style="background:#ffffff; padding:25px; border-radius:8px; border:1px solid #e0e0e0; max-width:650px; font-family:sans-serif;">
+<form action="https://formbold.com" method="POST" style="background:#ffffff; padding:25px; border-radius:8px; border:1px solid #e0e0e0; max-width:650px; font-family:sans-serif;">
+
+  <!-- 隐藏字段，确保表单后台能认出是 Taffy 的邮箱 -->
+  <input type="hidden" name="_to" value="taffylim.lpg@gmail.com">
+  <input type="hidden" name="_subject" value="New Klang Industrial Enquirer (Taffy Lim)">
 
   <!-- 1. 基本联络信息 -->
   <div style="margin-bottom:15px;">
@@ -15,7 +19,7 @@ Dear Valued Client, 请花 1 分钟提交您的精准物业需求。收到您的
   
   <div style="margin-bottom:15px;">
     <label style="display:block; font-weight:bold; margin-bottom:6px; color:#333;">2. WhatsApp / Contact Number / 联络电话 *</label>
-    <input type="tel" name="client_phone" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;" placeholder="e.g. 0123456789">
+    <input type="tel" name="client_phone" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;" placeholder="e.g. 0173751728">
   </div>
 
   <!-- 2. Property 意向与类别选择 -->
@@ -42,7 +46,7 @@ Dear Valued Client, 请花 1 分钟提交您的精准物业需求。收到您的
 
   <div style="margin-bottom:15px;">
     <label style="display:block; font-weight:bold; margin-bottom:6px; color:#333;">5. Target Location / 目标区域 *</label>
-    <input type="text" name="target_location" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;" placeholder="e.g. Kapar, Telok Gong, Port Klang, Shah Alam">
+    <input type="text" name="target_location" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;" placeholder="e.g. Kapar, Telok Gong, Port Klang, Sentosa">
   </div>
 
   <!-- 3. Property Details 规格详情 (硬核工业指标) -->
