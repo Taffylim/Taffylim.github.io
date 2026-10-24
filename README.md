@@ -29,7 +29,7 @@
 ## 📞 Contact Me Directly / 立即联络我
 Click the link below to chat with me instantly via WhatsApp for viewing arrangements or owner listings:
 
-👉 [🟢 CLICK HERE TO WHATSAPP TAFFY LIM (017-3751728)](https://wa.me.)
+👉 [🟢 CLICK HERE TO WHATSAPP TAFFY LIM (017-3751728)](https://wa.me)
 
 ---
 🌐 *Registered Industrial Specialist Agent. Your trusted partner for corporate setup in Klang.*
